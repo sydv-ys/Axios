@@ -4,6 +4,7 @@ import Headers from "./examples/2-headers";
 import Post from "./examples/3-post-request";
 import Global from "./examples/4-global-instance";
 import Custom from "./examples/5-custom-instance";
+import Interceptors from "./examples/5-custom-instance";
 import "./axios/global";
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
       {/* <First /> */}
       {/* <Headers /> */}
       {/* <Post/> */}
-      <Global />
+      {/* <Global /> */}
+      {/* <Custom /> */}
+      <Interceptors />
     </main>
   );
 }
