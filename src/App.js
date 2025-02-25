@@ -2,7 +2,9 @@ import Title from "./components/Title";
 import First from "./examples/1-first-request";
 import Headers from "./examples/2-headers";
 import Post from "./examples/3-post-request";
-
+import Global from "./examples/4-global-instance";
+import Custom from "./examples/5-custom-instance";
+import "./axios/global";
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       {/* <Title /> */}
       {/* <First /> */}
       {/* <Headers /> */}
-      <Post/>
+      {/* <Post/> */}
+      <Global />
     </main>
   );
 }
